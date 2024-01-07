@@ -11,12 +11,12 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages).
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+TODO: This is a package for collecting user rating in a app.
+This is so lite weight, so that all device can use it comfortably
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+TODO: My package can collect User rating efficiantly from a app
 
 ## Getting started
 
@@ -25,7 +25,16 @@ start using the package.
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
+TODO: In this rating bar, you need to provide a little detail , then it can show a nice outpit
+
+RatingBar(
+maxRating:5,
+icon:Icons.star,
+selectedRatingIconColor:Colors.green,
+unselectedRatingIconColor:Colors.grey
+)
+
+[//]: # (Include short and useful examples for package users. Add longer examples)
 to `/example` folder.
 
 ```dart
@@ -54,6 +63,11 @@ class MyApp extends StatelessWidget{
 
 ## Additional information
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+TODO: In this package, user can create a fully customizable rating bar, 
+for this reason the app will be light weight and all the device can easily support it
+
+[//]: # (Tell users more about the package: where to find more information, how to)
+
+[//]: # (contribute to the package, how to file issues, what response they can expect)
+
+[//]: # (from the package authors, and more.)
